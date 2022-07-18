@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           child: Text(
             'Duhast Vyacheslavovich',
             style: TextStyle(
-                fontSize: 20, color: Colors.red, fontFamily: 'Roboto'),
+                fontSize: 20, color: Colors.blue, fontFamily: 'Roboto'),
           ),
         ),
         floatingActionButton: FloatingActionButton(
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
               print('AAAAAA');
             },
             child: Text('Press')),
-        backgroundColor: Colors.cyanAccent,
+        backgroundColor: Colors.red,
       ),
     );
   }
