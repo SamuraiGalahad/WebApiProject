@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
               print('AAAAAA');
             },
             child: Text('Press')),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.black,
       ),
     );
   }
