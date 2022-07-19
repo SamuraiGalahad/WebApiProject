@@ -8,25 +8,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primaryColor: Colors.red),
+      theme: ThemeData(primaryColor: Color.fromARGB(255, 56, 69, 91)),
       home: Scaffold(
         appBar: AppBar(
           title: Text('Duhast'),
           centerTitle: true,
         ),
         body: Center(
-          child: Text(
-            'Duhast Vyacheslavovich',
-            style: TextStyle(
-                fontSize: 20, color: Colors.blue, fontFamily: 'Roboto'),
-          ),
-        ),
+            child: ElevatedButton.icon(
+                onPressed: () {},
+                icon: Icon(Icons.access_time_rounded),
+                label: Text('Нажми'))),
         floatingActionButton: FloatingActionButton(
             onPressed: () {
               print('AAAAAA');
             },
             child: Text('Press')),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
       ),
     );
   }
